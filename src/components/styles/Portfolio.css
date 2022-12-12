@@ -1,0 +1,28 @@
+.portfolio--container{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio--link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(158, 158, 158);
+    transition: all 0.5s ease;
+    background-color: black;
+}
+
+.portfolio--link:hover {
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .portfolio--link {
+        top: 5px;
+        right: 5px;
+    }
+}
+

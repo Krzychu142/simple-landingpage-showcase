@@ -1,0 +1,92 @@
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+.contact--container{
+    background-color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact--form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.contact--input{
+    display: block;
+    width: 60%;
+    height: 15%;
+    resize: none;
+    margin-bottom: 15px;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/9a1efe102182763.5f31158107dc0.png");
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+}
+
+#textarea{
+    text-align: left;
+    background-image: none;
+    background-color: whitesmoke;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 480px) {
+    .contact--input {
+        background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/9a1efe102182763.5f31158107dc0.png");
+        width: 300px;
+        height: 10%;
+    }
+}
+
+.contact--link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(158, 158, 158);
+    transition: all 0.5s ease;
+}
+
+.contact--link:hover {
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .contact--link {
+        top: 5px;
+        right: 5px;
+    }
+}
+
+.contact--button{
+    transition: all 0.5s ease;
+    background-color: rgb(158, 158, 158);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 5px 30px;
+}
+
+@media screen and (max-width: 480px) {
+    .contact--button {
+        padding: 5px 15px;
+        top: 5px;
+        right: 5px;
+    }
+}
+
+.contact--button:hover {
+    background-color: white;
+}

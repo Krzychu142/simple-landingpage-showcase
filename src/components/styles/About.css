@@ -1,0 +1,50 @@
+.about--container{ 
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about--nav{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 480px){
+    .about--nav{
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+}
+
+.about--link{
+    color: rgb(158, 158, 158);
+    transition: all 0.5s ease;
+}
+
+.about--link:hover{
+    color: white;
+}
+
+.about--img{
+    width: 700px;
+    border-radius: 50%;
+    opacity: 0.8;
+    filter: grayscale(20%);
+}
+
+@media screen and (max-width: 480px) {
+    .about--img{width: 300px;} 
+}
+
+.about--content{
+    color: rgb(158, 158, 158);
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .about--slider{
+        margin-top: 20px;
+    }
+}

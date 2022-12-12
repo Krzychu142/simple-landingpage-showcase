@@ -1,0 +1,26 @@
+.main{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+@media screen and (max-width: 480px) {
+    .main{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
+
+.main > p{
+    color: rgb(158, 158, 158);
+    font-size: 50px;
+}
+
+@media screen and (max-width: 480px) { 
+    .main > p {
+        font-size: 30px;
+    }
+}
+
+.main > p:last-child {
+    margin-left: 10px;
+}

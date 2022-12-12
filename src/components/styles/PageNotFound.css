@@ -1,0 +1,17 @@
+.pageNotFound{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageNotFound--link{
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.pageNotFound--link:hover{
+    color: white;
+}
